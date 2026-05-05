@@ -18,10 +18,7 @@
 name: Build Wireless Router ImmortalWrt 25.12.x
 
 permissions:
-  contents: write  # 必须：创建/编辑 Release
-  actions: write   # 可选：部分场景需要
-  packages: write  # 可选：如果发布附带包
-
+  contents: write
 on:
   workflow_dispatch:
     inputs:
